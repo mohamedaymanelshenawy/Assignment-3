@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Like</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #121212;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            animation: glow 1.5s infinite alternate;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 5px gold; }
+            to { text-shadow: 0 0 20px orange; }
+        }
+        .button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            background: gold;
+            color: black;
+            border: none;
+            font-size: 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">⚡ Bitcoin Like ⚡</div>
+        <p>The future of social mining is here. Earn Bitcoin by watching videos!</p>
+        <button class="button" onclick="window.location.href='https://play.google.com/store/apps/details?id=yourapp'">Get Started</button>
+    </div>
+</body>
+</html>
